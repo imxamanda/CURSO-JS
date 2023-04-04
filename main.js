@@ -22,3 +22,9 @@
 
 //console.log(names.split(","));
 //console.log(names.split("")); //soletra
+
+//NUMBERS
+//const number = 5;
+
+//console.log(number.toString());
+//console.log(typeof number.toString())
