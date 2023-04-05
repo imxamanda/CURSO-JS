@@ -10,8 +10,9 @@ console.log(joao)
 //ADD ELEMENTOS EM UMA LISTA
 
 //adiciona um elemento no final do array
-names.push('Pedro');
+//names.push('Pedro'); colocando isso como comentário remove o "false"
 
+names.push('Pedro'); 
 console.log(names);
 
 //adiciona um elemento no inicio
@@ -19,4 +20,13 @@ names.unshift("Fernanda");
 
 console.log(names)
 
+//REMOVENDO VALORES DE UMA LISTA
+
+//remove o ultimo elemento da lista
+names.pop();
+names.pop();
+names.pop();
+
+names[3] = "Gustavo" //agora o terceiro elemento não é mais a júlia, e sim o gustavo
+console.log(names);
 
