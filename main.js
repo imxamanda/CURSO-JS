@@ -39,3 +39,11 @@ const sortedNames = names.sort(); //ordena alfabeticamente
 console.log(names);
 console.log(sortedNames);
 
+//VERIFICANDO QUANTIDADE DE ELEMENTOS
+console.log(names.length);
+
+//VERIFICANDO SE UMA VARIÁVEL É UMA LISTA
+const nameIsArray = Array.isArray(names)
+
+console.log(names);
+console.log(nameIsArray);
