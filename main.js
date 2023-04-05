@@ -30,3 +30,12 @@ names.pop();
 names[3] = "Gustavo" //agora o terceiro elemento não é mais a júlia, e sim o gustavo
 console.log(names);
 
+//VERIFICANDO ÍNDICES DE ELEMENTOS
+
+console.log(names.indexOf("Felipe"))
+
+const sortedNames = names.sort(); //ordena alfabeticamente
+
+console.log(names);
+console.log(sortedNames);
+
