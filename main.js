@@ -1,18 +1,22 @@
-//ENTENDENDO O MAP
-const numbers = [1, 2, 3, 4, 5];
+//ACESSANDO PROPRIEDADES DE UM OBJETO
 
-const numberMultipliedByTwo = numbers.map(function(number){
-    return number * 2;
-})
+const person = {
+   firstName: "Amanda",
+   lastName: "Vieira",
+   age: "20",
+   hobbies: ['Ler', 'Musica', 'Desenho']
+};
 
-//console.log(numberMultipliedByTwo); -comentario para poder rodar o filter
+const firstName = person.firstName;
+const lastName = person.lastName;
+const age = person.age;
+const hobbies = person.hobbies;
 
-//ENTENDENDO O FILTER
- 
-const ages = [8,13 ,27, 30, 22, 40]
+//const read = person.hobbies[2];
 
-const evenAges = ages.filter(function(age){
-    return age % 2 === 0;
-})
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(hobbies);
+//console.log(read);
 
-console.log(evenAges);
