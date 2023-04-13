@@ -73,7 +73,7 @@
   }
   
   .error {
-    background: orangered;
+    background: rgb(255, 51, 0);
     color: #fff;
     padding: 5px;
     margin: 5px;
